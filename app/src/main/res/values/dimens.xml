@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="gamesListRecyclerViewMarginTop">15dp</dimen>
     <dimen name="corner_radius_yellow_square">8dp</dimen>
     <dimen name="gameIconHeightAndWidth">40dp</dimen>
     <dimen name="gameOverviewPadding">5dp</dimen>

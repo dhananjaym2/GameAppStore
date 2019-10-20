@@ -7,7 +7,7 @@
     android:layout_margin="@dimen/gameOverviewMargin"
     android:background="@color/gameOverviewBackgroundColor"
     android:padding="@dimen/gameOverviewPadding"
-    tools:context=".MainActivity">
+    tools:context=".GamesListActivity">
 
     <Button
         android:id="@+id/downloadGame"
