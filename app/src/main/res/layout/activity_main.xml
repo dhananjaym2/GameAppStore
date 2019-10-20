@@ -4,13 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/gameOverviewMargin"
+    android:background="@color/gameOverviewBackgroundColor"
     android:padding="@dimen/gameOverviewPadding"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/downloadGame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/downloadGameButtonHeight"
+        android:background="@drawable/green_rectangle_rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
 
     <ImageView
         android:id="@+id/gameIcon"
         android:layout_width="@dimen/gameIconHeightAndWidth"
         android:layout_height="@dimen/gameIconHeightAndWidth"
+        android:layout_marginTop="@dimen/gameIconMarginTop"
         android:contentDescription="@string/gameIcon"
         android:src="@drawable/yellow_square_rounded_corner"
         app:layout_constraintLeft_toLeftOf="parent"

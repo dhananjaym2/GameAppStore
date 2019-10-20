@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="yellow_bright">#FFEB3B</color>
+    <color name="gameOverviewBackgroundColor">#FF9800</color>
+    <color name="green_bright">#8BC34A</color>
 </resources>

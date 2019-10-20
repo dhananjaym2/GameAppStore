@@ -2,5 +2,8 @@
 <resources>
     <dimen name="corner_radius_yellow_square">8dp</dimen>
     <dimen name="gameIconHeightAndWidth">40dp</dimen>
-    <dimen name="gameOverviewPadding">20dp</dimen>
+    <dimen name="gameOverviewPadding">5dp</dimen>
+    <dimen name="gameOverviewMargin">7dp</dimen>
+    <dimen name="gameIconMarginTop">10dp</dimen>
+    <dimen name="downloadGameButtonHeight">15dp</dimen>
 </resources>
